@@ -32,7 +32,6 @@ return {
     { name = "PmenuSel",     fg = c.white, bg = c.yellow         },
     { name = "PmenuSbar",    bg = c.blue_d                       },
     { name = "PmenuThumb",   bg = c.gray_l                       },
-    { name = "PmenuThumb",   bg = c.gray_l                       },
     { name = "Question",     fg = c.pink                         },
     { name = "QuickFixLine", bg = c.gray_d                       },
     { name = "Search",       bg = c.gray_d                       },
@@ -53,9 +52,11 @@ return {
     { name = "ErrorMsg",     fg = c.red                          },
     { name = "WildMenu",     fg = c.gray_d, bg = c.yellow        },
     { name = "EndOfBuffer",  fg = c.gray_d                       },
+    { name = "WinBar",       bg = c.black                        },
   },
   link = {
     { dst = "NormalFloat", src = "Normal" },
     { dst = "NormalNC",    src = "Normal" },
+    { dst = "WinBarNC",    src = "WinBar" },
   }
 }
